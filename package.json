@@ -1,0 +1,18 @@
+{
+  "name": "wp-dev-environment",
+  "version": "1.0.0",
+  "description": "Environment for Developing WordPress Themes and Theme's plugin using PHP_CodeSniffer, Laravel Mix, SASS, Bootstrap4 and Fontawesome5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tajid Yakub <tajid.yakub@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "laravel-mix": "^2.0.0",
+    "popper.js": "^1.12.9"
+  }
+}
