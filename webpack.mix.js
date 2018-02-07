@@ -11,8 +11,10 @@ mix.options({
 
 mix
 	.disableNotifications()
-	.sass('src/styles/style.scss', 'build/themes/_themes-slug')
-	.js('src/scripts/app.js', 'build/themes/_themes-slug')
-	.copyDirectory('src/assets', 'build/themes/_themes-slug')
-	.copyDirectory('src/themes','build/themes/_themes-slug')
-	.copyDirectory('src/themes','webfolder/wp-content/themes');
+	.sass('src/styles/style.scss', 'build/themes/_replace_this')
+	.js('src/scripts/app.js', 'build/themes/_replace_this')
+	.copyDirectory('src/assets', 'build/themes/_replace_this')
+	.copyDirectory('src/themes','build/themes/_replace_this')
+	.copyDirectory('src/themes','webfolder/wp-content/themes')
+	.copyDirectory('src/plugins', 'build/plugins/_replace_this')
+	.copyDirectory('build/plugins', 'webfolder/wp-content/plugins');

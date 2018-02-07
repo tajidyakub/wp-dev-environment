@@ -1,3 +1,24 @@
-@import "meta";
-@import "variables";
-@import "~bootstrap/scss/bootstrap"
+@import 'meta';
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import 'fa5/fontawesome';
+
+.ctr-maxed {
+	max-width: 860px;
+}
+
+.content-block {
+	.title {
+		//
+	}
+	.subtitle {
+		//
+	}
+	.blockquote {
+		//
+	}
+}
+
+@import 'navs';
+@import 'widget';
+@import 'footer';

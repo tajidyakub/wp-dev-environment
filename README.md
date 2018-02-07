@@ -29,12 +29,13 @@ $ mv .configuration.example.json .configuration.json
 $ vim .configuration.json
 ```
 
-- Install deps and requirements
+- Initialize using the install script's included
 
 ``` bash
-$ npm install
-$ composer install
+$ ./setup.sh
 ```
+
+## Usage
 
 - Laravel Mix (wrapper for Webpack) setup through webpack.mix.js
 - Compiles and copy files to build and webfolder directory

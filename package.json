@@ -20,8 +20,5 @@
     "laravel-mix": "^2.0.0",
     "popper.js": "^1.12.9"
   },
-  "devDependencies": {
-    "commander": "^2.14.1",
-    "inquirer": "^5.1.0"
-  }
+  "devDependencies": {}
 }
