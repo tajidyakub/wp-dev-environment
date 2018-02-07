@@ -4,15 +4,24 @@
   "description": "Environment for Developing WordPress Themes and Theme's plugin using PHP_CodeSniffer, Laravel Mix, SASS, Bootstrap4 and Fontawesome5",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Tajid Yakub <tajid.yakub@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "autoprefixer": "^7.2.5",
     "bootstrap": "^4.0.0",
     "jquery": "^3.3.1",
     "laravel-mix": "^2.0.0",
     "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "commander": "^2.14.1",
+    "inquirer": "^5.1.0"
   }
 }

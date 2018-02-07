@@ -286,3 +286,10 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+
+# Composer vendor file
+vendor/
+
+# Repo specific
+.configuration.json

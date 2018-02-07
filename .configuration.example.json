@@ -1,0 +1,23 @@
+{
+	"themeConfig": {
+		"title": "Theme's title",
+		"slug": "theme-slug",
+		"version": "1.0.0",
+		"description": "Description for the WordPress theme.",
+		"author": "Author Name <author.email@gmail.com>",
+		"urlTheme": "https://themesurl.com",
+		"urlAuthor": "https://authorurl.com",
+		"tags": "Tags for the WP Themes, comma separated.",
+		"languagePath": "/languages"
+	},
+	"pluginConfig": {
+		"name": "Plugin's title",
+		"slug": "plugin-slug",
+		"version": "1.0.0",
+		"description": "Plugin's description",
+		"author": "Author Name <author.email@gmail.com>",
+		"urlAuthor": "https://authorurl.com",
+		"urlPlugin": "https://pluginurl.com",
+		"languagePath": "/languages"
+	}
+}

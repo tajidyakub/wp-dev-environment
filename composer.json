@@ -1,0 +1,18 @@
+{
+	"extra": {
+		"wordpress-install-dir": "webfolder",
+		"installer-paths": {
+			"webfolder/wp-content/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"webfolder/wp-content/themes/{$name}/": [
+				"type:wordpress-theme"
+			]
+		}
+	},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.2",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+        "automattic/phpcs-neutron-standard": "^1.2"
+    }
+}
